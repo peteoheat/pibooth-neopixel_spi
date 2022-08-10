@@ -63,4 +63,4 @@ Inspiration, code snippets, etc.
 * [PiBooth](https://pibooth.readthedocs.io/en/latest/)
 * [Matt Steele](https://github.com/mattdsteele/pibooth-config) for creating the pibooth-neopixel plugin that I started with.
 * [Adafruit Neopixel](https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel) for all of the great examples.
-
+* [Adafruit Neopixel Uberguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)
