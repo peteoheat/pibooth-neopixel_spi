@@ -1,20 +1,26 @@
 # pibooth-neopixel_spi
 
-This project is a plugin to pibooth that enables you to add neopixels to your project using the SPI bus instead of the PWM bus. If you are using the Raspberry Pi for your project, the benefits of SPI over PWM are:
+This project is a plugin to pibooth that enables you to add neopixels to your project using the SPI bus on Raspberry Pi instead of the PWM bus. The benefits of using SPI over PWM are:
 
 * No need to disable onboard audio on the raspberry pi. Meaning you can have sound as well as neopixels
 * No need to run your pibooth software as the root user.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+https://pibooth.readthedocs.io/en/latest/> is a fantastic project for creating your own Photobooth. I have built one using a Raspberry Pi and more details on my implementation to come. But I really wanted to use an Adafruit neopixel ring to implement things like:
+* An attract mode to draw attention to the booth
+* A visual countdown timer
+* A 'flash' as the virtual-shutter captures the image.
+
+I original followed the Adafruit 
+https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage to get my neopixel ring setup. But then I ran into problems with the fact that the code has to run as the root user. I didn't want to do that for security reasons. So I decided to use the SPI bus instead which does not require root to use it.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* On your Raspberry pi you have to enable use of SPI using raspi-config. Look in the 'Interfaces' section to enable it.
+* Install the neopixel_spi library https://docs.circuitpython.org/projects/neopixel_spi/en/latest/
 
 ### Installing
 
