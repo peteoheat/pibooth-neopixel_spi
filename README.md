@@ -55,7 +55,7 @@ The plugin will automatically be included in your pibooth setup the next time yo
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This software is unlicensed - see the LICENSE.md file for details
 
 ## Acknowledgments
 
