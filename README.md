@@ -30,7 +30,7 @@ I original followed the Adafruit
 * Edit your pibooth.config file and edit this line to add pibooth-neopixel_spi
 ```
 # Path to custom plugin(s) not installed with pip (list of quoted paths accepted)
-plugins = ["<your path to where you copied the file>/pibooth_neopixel_spi.py"]
+plugins = ["<your path to where you copied the file>/pibooth_neopixel-spi.py"]
 ```
 ### Files in this repository
 #### pibooth-neopixel_spi.py
