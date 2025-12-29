@@ -249,7 +249,7 @@ The plugin will automatically be included in your pibooth setup the next time yo
 
 ## Version History
 
-* 2.0
+* 3.2.1
    * All new version with much much more functionality.
 * 0.1
     * Initial Release
